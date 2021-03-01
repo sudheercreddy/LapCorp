@@ -7,13 +7,13 @@ package Testrunner;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features="C:\\Users\\schittireddy\\eclipse-workspace\\LabCorp\\src\\main\\java\\Features\\Jonsearch.feature",
+			features="C:\\Users\\schittireddy\\eclipse-workspace\\LabCorp\\src\\main\\java\\Features\\LabcorpCodingRound.feature",
 			glue="Steps",
 			monochrome=true,
 			//tags= {"@sanity"},
-			plugin= {"pretty","html:test-output"},
-		//	strict=false,
-			dryRun=false
+			plugin= {"pretty","html:test-output"}
+			//strict=true,
+			//dryRun=false
 			)
 	public class TestRunner {
 
